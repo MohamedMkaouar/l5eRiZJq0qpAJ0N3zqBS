@@ -17,7 +17,7 @@ def embedding():
     return X,vectorizer
 
 X,vectorizer = embedding()
-hide_toolbars()
+#hide_toolbars()
 
 st.sidebar.write("""## Fill the form with information about the Health issue of the patient""")
 
