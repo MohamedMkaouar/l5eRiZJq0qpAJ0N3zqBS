@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "lab-exam"
+version = "0.1.0"
+description = ""
+authors = ["Mohamed MKAOUAR <mohamed_mkaouar@carrefour.com>"]
+readme = "README.md"
+packages = [{include = "lab_exam"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.0"
+pickle-secure = "^0.9.99"
+torch = {version = "^1.12.1", platform = "windows"}
+transformers = "^4.22.1"
+tqdm = "^4.64.1"
+streamlit = "^1.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+matplotlib = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
