@@ -1,13 +1,10 @@
-from operator import index
 from lab_exam.medical_tfidf_vectorizer import tfidf_embedding,lab_recommendation,similar_health_topics
 from utilis.hide_toolbar import hide_toolbars
 from utilis.translator import read_text
 
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 import streamlit as st
 
+import pickle
 
 #X,vectorizer = np.array([]),TfidfVectorizer()
 
